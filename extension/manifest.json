@@ -5,7 +5,9 @@
     "content_security_policy": "script-src 'self'; object-src 'self'",
     "description": "A simple home page for me",
     "icons": {
-        "128": "img/icons/128.svg"
+        "16": "img/icons/16.png",
+        "48": "img/icons/48.png",
+        "128": "img/icons/128.png"
     },
     "author": "Vincent Rémond",
     "manifest_version": 2,
