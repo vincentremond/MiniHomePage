@@ -1,0 +1,28 @@
+{
+    "chrome_url_overrides": {
+        "newtab": "mhp.html"
+    },
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "description": "A simple home page for me",
+    "icons": {
+        "128": "img/icons/128.svg"
+    },
+    "author": "Vincent Rémond",
+    "manifest_version": 2,
+    "name": "Mini Home Page",
+    "version": "0.0.1",
+    "short_name": "MHP",
+    "permissions": [
+        "topSites",
+        "management",
+        "bookmarks",
+        "storage",
+        "sessions",
+        "tabs",
+        "*://*/*"
+    ],
+    "background": {
+        "page": "mhp.html",
+        "persistent": true
+    }
+}

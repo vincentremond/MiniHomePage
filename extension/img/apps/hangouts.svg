@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 512.00001 512.00001"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="hangouts.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="225.03349"
+     inkscape:cy="236.68151"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1280"
+     inkscape:window-height="961"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-540.36216)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.70899999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4149"
+       width="512"
+       height="512"
+       x="0"
+       y="540.36212" />
+    <path
+       style="fill:#3f992c;fill-opacity:1"
+       d="m 0,796.36221 0,-256.00001 256,0 256,0 0,256.00001 0,255.99999 -256,0 -256,0 0,-255.99999 z m 270.26817,227.87539 c 39.93139,-19.9994 76.20954,-46.28574 106.30244,-77.0243 44.76441,-45.725 70.0929,-96.1055 78.60446,-156.35109 1.8248,-12.9161 1.55081,-44.58338 -0.49631,-57.36349 C 440.39785,644.3434 371.8244,576.15541 284.14815,563.92669 c -14.54627,-2.02886 -40.75003,-2.02886 -55.2963,0 -87.39184,12.18906 -157.1628,81.49893 -170.37933,169.25337 -6.92315,45.96795 2.82411,94.60754 26.852392,133.99534 15.537138,25.469 37.858108,48.5858 62.175088,64.3921 29.69987,19.3051 61.56375,29.7433 98.75,32.3493 l 9.75,0.6832 0,31.71436 c 0,17.44304 0.3,32.01444 0.66667,32.38114 1.31456,1.3146 3.51797,0.5924 13.6015,-4.4579 z M 182.11019,850.4724 C 180.22038,848.5826 180,847.2193 180,837.4189 c 0,-12.4781 0.0917,-12.6301 9.45496,-15.6701 4.90367,-1.5921 10.698,-5.2146 13.34976,-8.3459 2.92833,-3.458 6.17622,-11.74929 6.18551,-15.79069 l 0.01,-4.25 -24.25,0 c -27.36794,0 -29.75624,-0.5083 -32.99845,-6.9985 -1.56243,-3.1276 -1.74861,-7.1472 -1.75,-37.78208 -0.002,-36.77507 0.29054,-39.20778 5.11532,-42.58719 2.05127,-1.43631 6.75953,-1.63024 39.58986,-1.63024 l 37.26172,0 3.26577,2.91725 3.26578,2.91725 0.28776,43.83275 c 0.32066,48.84506 0.0144,52.06506 -6.17682,64.93445 -8.34683,17.3503 -25.42663,30.0801 -44.25075,32.9808 -3.40582,0.5248 -4.51395,0.2637 -6.25,-1.4723 z M 307,851.6333 c -2.63858,-1.0044 -2.96907,-2.549 -2.98469,-13.9497 -0.0174,-12.6717 0.39623,-13.5473 7.27407,-15.3993 12.32776,-3.3195 20.70618,-12.7996 21.0624,-23.83179 l 0.14822,-4.5903 -25.5,-0.5 c -22.37972,-0.4388 -25.82413,-0.7201 -28.14887,-2.2988 -4.7898,-3.2525 -4.94362,-4.7146 -4.63736,-44.07875 l 0.28623,-36.78842 3.26578,-2.91702 3.26577,-2.91702 37.56115,0 37.56115,0 2.83742,2.83742 c 1.87603,1.87603 3.06237,4.33745 3.50131,7.26452 0.36513,2.4349 0.50596,23.32056 0.31295,46.41257 l -0.35092,41.9855 -2.64625,7.49999 c -3.90984,11.0812 -7.38458,16.6896 -15.24867,24.6121 -7.92597,7.9847 -17.50052,13.4541 -27.80612,15.8839 -6.73407,1.5877 -7.46602,1.6459 -9.75357,0.7751 z"
+       id="path4147"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

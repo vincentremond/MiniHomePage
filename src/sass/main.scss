@@ -1,0 +1,59 @@
+$linkSize: 48px;
+
+html, body {
+    margin: 0; padding: 0;
+}
+
+html {
+    background: url(../img/back/cloud.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Roboto Thin";
+}
+
+ul {
+    margin: 30px auto;
+    padding: 0;
+    width: 23*$linkSize;
+    height: $linkSize;
+    li {
+        /*box-shadow: 0px 0px 15px 0px #AAA;*/
+        margin: 0; padding: 0;
+        display: block;
+        float: left;
+        width: $linkSize;
+        height: $linkSize;
+        .sitelink {
+            display: inline-block;
+            width: $linkSize;
+            height: $linkSize;
+            text-indent: -9999px;
+            background-size: $linkSize $linkSize;
+            &.sitelink--rememberthemilk { background-image: url("../img/apps/rememberthemilk.svg"); }
+            &.sitelink--facebook { background-image: url("../img/apps/facebook.svg"); }
+            &.sitelink--inbox { background-image: url("../img/apps/inbox.svg"); }
+            &.sitelink--feedly { background-image: url("../img/apps/feedly.svg"); }
+            &.sitelink--twitter { background-image: url("../img/apps/twitter.svg"); }
+            &.sitelink--instagram { background-image: url("../img/apps/instagram.svg"); }
+            &.sitelink--audible { background-image: url("../img/apps/audible.svg"); }
+            &.sitelink--youtube { background-image: url("../img/apps/youtube.svg"); }
+            &.sitelink--keep { background-image: url("../img/apps/keep.svg"); }
+            &.sitelink--20minutes { background-image: url("../img/apps/20minutes.svg"); }
+            &.sitelink--playmusic { background-image: url("../img/apps/playmusic.svg"); }
+            &.sitelink--spotify { background-image: url("../img/apps/spotify.svg"); }
+            &.sitelink--hangouts { background-image: url("../img/apps/hangouts.svg"); }
+            &.sitelink--whatsapp { background-image: url("../img/apps/whatsapp.svg"); }
+            &.sitelink--gmail { background-image: url("../img/apps/gmail.svg"); }
+            &.sitelink--gmailoffline { background-image: url("../img/apps/gmailoffline.svg"); }
+            &.sitelink--drive { background-image: url("../img/apps/drive.svg"); }
+            &.sitelink--calendar { background-image: url("../img/apps/calendar.svg"); }
+            &.sitelink--maps { background-image: url("../img/apps/maps.svg"); }
+            &.sitelink--kindle { background-image: url("../img/apps/kindle.svg"); }
+            &.sitelink--translate { background-image: url("../img/apps/translate.svg"); }
+            &.sitelink--instapaper { background-image: url("../img/apps/instapaper.svg"); }
+            &.sitelink--netflix { background-image: url("../img/apps/netflix.svg"); }
+        }
+    }
+}
