@@ -1,4 +1,6 @@
+param ([switch] $nozip)
 set-alias inkscape "C:\Program Files\Inkscape\inkscape.exe"
+New-Item -Type Directory -Path ".\extension\img\icons\"
 $sizes = @(16,48,128)
 foreach($size in $sizes) {
     $src = ".\src\img\icons\source.svg"
@@ -7,8 +9,10 @@ foreach($size in $sizes) {
     inkscape -f "$($src)" -e "$($dst)" --export-width "$size" --export-height "$size"
 }
 
-Set-Alias sevenzip "C:\Program Files\7-Zip\7z.exe"
-Set-Location .\extension
-$timestamp = (Get-Date -Format "yyyyMMddHHmmss")
-sevenzip a -tzip "..\result\MiniHomePage-$timestamp.zip"
-Set-Location ..
+if(-not($nozip)) {
+    Set-Alias sevenzip "C:\Program Files\7-Zip\7z.exe"
+    Set-Location .\extension
+    $timestamp = (Get-Date -Format "yyyyMMddHHmmss")
+    sevenzip a -tzip "..\result\MiniHomePage-$timestamp.zip"
+    Set-Location ..
+}
