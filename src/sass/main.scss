@@ -1,6 +1,6 @@
-$linkSize: 48px;
+$linkSize: 60px;
 
-html, body {
+* {
     margin: 0; padding: 0;
 }
 
@@ -9,22 +9,22 @@ html {
     background-size: cover;
 }
 
-h1 {
-    font-family: "Roboto Thin";
-}
 
 ul {
-    margin: 30px auto;
-    padding: 0;
-    width: 23*$linkSize;
-    height: $linkSize;
+        
     li {
-        /*box-shadow: 0px 0px 15px 0px #AAA;*/
-        margin: 0; padding: 0;
-        display: block;
-        float: left;
         width: $linkSize;
         height: $linkSize;
+        display: inline-block;
+        opacity: 0.4;
+        transition: opacity 1s ease-in-out;
+        &:hover {
+            opacity: 1;
+            transition: opacity 0.3s ease-in-out;
+        }
+        &:last-child .sitelink {
+            border-bottom-right-radius: $linkSize / 3;
+        }
         .sitelink {
             display: inline-block;
             width: $linkSize;
