@@ -1,6 +1,6 @@
 param ([switch] $nozip)
 set-alias inkscape "C:\Program Files\Inkscape\inkscape.exe"
-New-Item -Type Directory -Path ".\extension\img\icons\"
+New-Item -Type Directory -Path ".\extension\img\icons\" -Force
 $sizes = @(16,48,128)
 foreach($size in $sizes) {
     $src = ".\src\img\icons\source.svg"
